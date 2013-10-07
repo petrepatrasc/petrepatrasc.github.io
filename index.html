@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+---
+
+<div id="home">
+	<h1>Heyo!</h1>
+	<p>Looks like you've stumbled across my small corner of the inter-webs! In an effort to keep you entertained and happy from the get-go, I'll post a picture of Yoshi to make you feel right at home. </p>
+
+	<img src="http://4.bp.blogspot.com/-hCDW0dBGR0M/Tpw4AOVsSNI/AAAAAAAAA0U/uhvsrRGJKu4/s320/Yoshi.jpg" alt="Amazing Yoshi Picture!">
+
+	<p>Thanks for joining in, and I hope you like the materials on this journal. If you'd like to be in touch, mail me at: petre@dreamlabs.ro, or click one of the buttons at the top. Cheers!</p>
+
+	<div class="all_posts">
+		<h1>Journal Posts</h1>
+		<ul class="posts">
+			{% for post in site.posts %}
+			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
