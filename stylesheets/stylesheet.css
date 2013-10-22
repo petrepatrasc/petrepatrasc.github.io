@@ -254,6 +254,26 @@ hr {
   background: url("../images/bitbucket-icon.png") 0 0 no-repeat;
 }
 
+.btn-google-plus .icon {
+  opacity: 0.6;
+  background: url("../images/google-plus-icon.png") 0 0 no-repeat;
+}
+
+.btn-stackoverflow .icon {
+  opacity: 0.6;
+  background: url("../images/stackoverflow-icon.png") 0 0 no-repeat;
+}
+
+.btn-careers .icon {
+  opacity: 0.6;
+  background: url("../images/careers2-icon.png") 0 0 no-repeat;
+}
+
+.btn-linkedin .icon {
+  opacity: 0.6;
+  background: url("../images/linkedin-icon.png") 0 0 no-repeat;
+}
+
 /* Links
    a, a:hover, a:visited
 */
